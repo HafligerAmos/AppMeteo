@@ -1,0 +1,3 @@
+Scelta delle tecnologie:
+C# Interfaccia e codice
+MySql DataBase
