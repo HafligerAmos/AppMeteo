@@ -1,4 +1,6 @@
 Prendere dati da 3 API
+Switzerland
+
 Meteo attuale(temperatura, precipitazioni, vento)
 Previsioni per la settimana(temperatura, precipitazioni, vento)
 Storico visualizzato graficamente(deciso dall'utente)( - max)
@@ -6,5 +8,5 @@ Storico visualizzato graficamente(deciso dall'utente)( - max)
 	se zoommo sul grafico di 10 anni per visualizzarne solo 2 diventerà 
 	più preciso il grafico
 Controllo periodico(con frequenza determinata dall'utente)(min - max)
-File di configurazione per il controllo periodico e per la località
+File di configurazione per il controllo periodico e per la località e per 
 text to speech delle informazioni ricavate dall'api
