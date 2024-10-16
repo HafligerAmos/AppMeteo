@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "SpecularOne";
+    src: url("../../media/font/SecularOne-Regular.ttf");
+}
+body{
+    text-align: center;
+    font-family: "SpecularOne";
+}
+.main{
+    display: flex;
+}
+
+.full-height {
+    height: 48vh; /* Mezzo schermo in altezza */
+}
+
+.rounded-container {
+    border-radius: 20px; /* Arrotonda i bordi */
+    background-color: rgba(255, 255, 255, 0.2); /* Sfondo trasparente */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* Bordo leggero e trasparente */
+    backdrop-filter: blur(10px); /* Effetto blur per un tocco più moderno */
+}
+
+.row {
+    margin-top: 100px; /* Rimuovi margine dalle righe */
+}
+.col-6 {
+    padding: 0; /* Rimuovi padding dalle colonne */
+}
+#temp-chart {
+    max-width: 90%; /* Limita la larghezza del grafico */
+    margin: 20px 0; /* Aggiungi margini sopra e sotto */
+}
+

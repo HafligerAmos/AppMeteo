@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|d:\\2024-2025\\professionale\\m306\\progetti\\appmeteo\\5_applicativo\\appmeteo\\models\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|solutionrelative:models\\api.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|d:\\2024-2025\\professionale\\m306\\progetti\\appmeteo\\5_applicativo\\appmeteo\\models\\previsione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|solutionrelative:models\\previsione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|d:\\2024-2025\\professionale\\m306\\progetti\\appmeteo\\5_applicativo\\appmeteo\\models\\citta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|solutionrelative:models\\citta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|d:\\2024-2025\\professionale\\m306\\progetti\\appmeteo\\5_applicativo\\appmeteo\\views\\previsioniview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|solutionrelative:views\\previsioniview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|d:\\2024-2025\\professionale\\m306\\progetti\\appmeteo\\5_applicativo\\appmeteo\\views\\ricercaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|solutionrelative:views\\ricercaview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|d:\\2024-2025\\professionale\\m306\\progetti\\appmeteo\\5_applicativo\\appmeteo\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|d:\\2024-2025\\professionale\\m306\\progetti\\appmeteo\\5_applicativo\\appmeteo\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B7315F8-AB39-46D6-B454-C6239AA62AB0}|AppMeteo.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Api.cs",
+              "DocumentMoniker": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\Models\\Api.cs",
+              "RelativeDocumentMoniker": "Models\\Api.cs",
+              "ToolTip": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\Models\\Api.cs",
+              "RelativeToolTip": "Models\\Api.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:57:40.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Previsione.cs",
+              "DocumentMoniker": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\Models\\Previsione.cs",
+              "RelativeDocumentMoniker": "Models\\Previsione.cs",
+              "ToolTip": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\Models\\Previsione.cs",
+              "RelativeToolTip": "Models\\Previsione.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:57:28.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Citta.cs",
+              "DocumentMoniker": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\Models\\Citta.cs",
+              "RelativeDocumentMoniker": "Models\\Citta.cs",
+              "ToolTip": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\Models\\Citta.cs",
+              "RelativeToolTip": "Models\\Citta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:57:20.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RicercaView.xaml",
+              "DocumentMoniker": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\Views\\RicercaView.xaml",
+              "RelativeDocumentMoniker": "Views\\RicercaView.xaml",
+              "ToolTip": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\Views\\RicercaView.xaml",
+              "RelativeToolTip": "Views\\RicercaView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-16T08:48:43.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PrevisioniView.xaml",
+              "DocumentMoniker": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\Views\\PrevisioniView.xaml",
+              "RelativeDocumentMoniker": "Views\\PrevisioniView.xaml",
+              "ToolTip": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\Views\\PrevisioniView.xaml",
+              "RelativeToolTip": "Views\\PrevisioniView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-16T08:48:35.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-16T08:47:15.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\2024-2025\\Professionale\\M306\\Progetti\\AppMeteo\\5_Applicativo\\AppMeteo\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T08:47:15.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

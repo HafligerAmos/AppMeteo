@@ -1,0 +1,7 @@
+openweathermap.org | 4103aee84222787108bd278d6bbe6170
+
+wheaterapi.com | 617feaa2a3d5475ca8592447241610
+
+Accuwheater.com | 0TZ0AytvOwmw7ESOsnIzkiAGss93JAAj
+
+https://open-meteo.com/en/docs#latitude=47.0002&longitude=8.0143&past_days=92
