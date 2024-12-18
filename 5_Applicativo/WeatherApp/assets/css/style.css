@@ -1,40 +1,166 @@
 * {
     padding: 0;
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: "SpecularOne";
-    src: url("../../media/font/SecularOne-Regular.ttf");
-}
-body{
+
+body {
     text-align: center;
     font-family: "SpecularOne";
 }
-.main{
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Nasconde lo scroll */
+}
+
+/* Imposta l'altezza totale a 100vh per l'intero schermo */
+.container-fluid {
+    height: 100vh; /* Altezza totale della finestra */
     display: flex;
-}
-
-.full-height {
-    height: 48vh; /* Mezzo schermo in altezza */
-}
-
-.rounded-container {
-    border-radius: 20px; /* Arrotonda i bordi */
-    background-color: rgba(255, 255, 255, 0.2); /* Sfondo trasparente */
-    border: 2px solid rgba(255, 255, 255, 0.5); /* Bordo leggero e trasparente */
-    backdrop-filter: blur(10px); /* Effetto blur per un tocco più moderno */
+    flex-direction: column;
+    justify-content: space-between; /* Distribuisci equamente lo spazio tra i box */
 }
 
 .row {
-    margin-top: 100px; /* Rimuovi margine dalle righe */
-}
-.col-6 {
-    padding: 0; /* Rimuovi padding dalle colonne */
-}
-#temp-chart {
-    max-width: 90%; /* Limita la larghezza del grafico */
-    margin: 20px 0; /* Aggiungi margini sopra e sotto */
+    margin: 0; /* Rimuovi margine aggiuntivo */
+    display: flex;
+    justify-content: space-between; /* Aggiungi spazio tra le colonne */
+    flex: 1; /* Fai in modo che ogni riga occupi lo spazio disponibile */
 }
 
+/* Box al 50% della larghezza e altezza */
+.col-6 {
+    padding: 0; /* Rimuovi padding */
+    flex: 1; /* Rendi ogni colonna uguale */
+}
+
+.full-height {
+    height: 100%; /* Rendi i box alti come l'altezza del contenitore */
+}
+
+.rounded-container {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+/* Ottimizza il box delle previsioni */
+#weekly-forecast {
+    font-size: 2.5rem;
+    grid-template-columns: repeat(4, 1fr); /* Mantieni 4 colonne per le previsioni */
+    gap: 20px; /* Distanza tra i box */
+    width: 100%;
+    height: 100%;
+    max-width: 100%; /* Impedisce che i box escano dal contenitore */
+    overflow: hidden; /* Rimuove la scrollbar orizzontale */
+}
+
+
+
+.card {
+    position: relative;
+    overflow: hidden;
+    padding: 20px; /* Maggiore padding per una migliore leggibilità */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px; /* Altezza aumentata per vedere completamente le informazioni */
+    max-height: 250px; /* Limita l'altezza massima dei box */
+    overflow: hidden; /* Rimuove overflow nei box */
+    font-size: 0.8rem; /* Ridimensiona il font delle informazioni per una migliore leggibilità */
+    text-align: center;
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: white;
+    --bs-card-spacer-y: 0 !important; /* Sovrascrive lo spazio orizzontale nelle card */
+    --bs-card-spacer-x: 0 !important;
+}
+
+#weekly-forecast h2 {
+    margin: 0; /* Rimuove il margine superiore dal titolo */
+    padding: 0 10px; /* Padding laterale per allineare meglio */
+    font-size: 32px;
+    text-align: left; /* Allinea il titolo a sinistra */
+    width: 100%; /* Assicura che il titolo occupi l'intera larghezza del contenitore */
+}
+
+.city-card{
+    font-size: 28px;
+}
+
+
+.card img {
+    width: 100px; /* Imposta una larghezza fissa per le immagini */
+    margin: 10px;
+}
+
+#temp-chart {
+    max-width: 90%;
+    margin: 20px 0;
+}
+
+.card-title {
+    color: white ;
+    font-weight: bold;
+}
+
+.card-text{
+    color: white ;
+    font-weight: bold;
+}
+
+#weather-icon{
+    width: 150px;
+}
+
+#today-temp{
+    font-size: 2.5rem;
+}
+
+
+.weather-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.weather-card .card-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px) brightness(0.5); /* Applicare la sfocatura */
+    z-index: -1; /* Metti l'immagine di sfondo dietro il contenuto */
+}
+
+.weather-card .card-body {
+    position: relative;
+    z-index: 1; /* Garantisce che il contenuto resti sopra l'immagine */
+    padding: 15px;
+    color: white; /* Imposta il colore del testo per visibilità */
+}
+
+.canvas-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    max-width: 100%;
+    max-height: 100%;
+}
